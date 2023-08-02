@@ -1,0 +1,83 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+body {
+	background-color: #333;
+}
+
+.navbar {
+	background-color: #222;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 30px;
+	position: relative;
+	box-shadow: 3px 0 5px #aaa;
+	font-weight: 600;
+}
+.navbar-brand {
+	display: flex;
+	padding: 15px 30px;
+	font-size: 22px;
+	text-decoration: none;
+	color: #fa0000;
+}
+.menu {
+	list-style-type: none;
+	font-size: 16px;
+}
+.nav-item {
+	display: inline-block;
+	padding: 15px 10px;
+}
+.nav-link {
+	text-decoration: none;
+	transition: color 0.3s ease;
+	color: #fa0000;
+}
+.nav-link:hover {
+	color: white;
+}
+
+.card {
+	background-color: #111;
+	padding: 30px 30px;
+	border: solid 2px #aaa;
+	border-radius: 5px;
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	margin-top: 2rem;
+}
+
+/* Select */
+.selector {
+	background-color: #fa0000;
+	display: inline-block;
+	font-size: 15px;
+	color: #fff;
+	padding: 30px 30px;
+}
+
+button {
+	background-color: #fa0000;
+	padding: 20px 30px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #fff;
+	border: 1px solid #fa0000;
+	border-radius: 15px;
+}
+
+button:hover {
+	background-color: transparent;
+	border: 1px solid #fa0000;
+}
+
+/* checkbox switches */
+.switches {
+	list-style-type: none;
+	padding: inherit;
+}
+
